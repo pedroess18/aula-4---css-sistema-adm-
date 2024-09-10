@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: teal;
+}
+
+/* priemira trabalha com sombra horizontal 
+segunda com sombra vertical 
+terceira com o bloor - desbotado
+quarto - com a cor propriamente dita */
+
+
+.conteudoLogin{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin: 30px auto;
+    opacity: 0.8;
+
+    
+}
+
+/* .conteudoLogin, h1 */
+/* a gente chama todos  */
+
+/* .conteudoLogin div,label */
+/* eu chamo o ultimo elemento */
+
+/* .conteudoLogin > div */
+/* chama o mesmo que o de cima, so muda a forma de chamar */
+
+.conteudoLogin > div, label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.conteudoLogin > div, input{
+   width: 90%;
+}
+
+.conteudoLogin > div, button{
+    width: 80%;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.conteudoLogin > div, button:hover {
+   background-color: rgb(255, 000,000);
+   color: #000;
+   font-weight: 600;
+}
+
+
+.conteudoLogin > div, button:active {
+    background-color: rgb(000, 255,000);
+    color: #000;
+    font-weight: 600;
+ }
